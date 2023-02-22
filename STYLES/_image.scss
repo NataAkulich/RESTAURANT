@@ -1,0 +1,15 @@
+.image {
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .image {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .image {
+        padding-top: 70px;
+    }
+}

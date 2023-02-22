@@ -1,0 +1,91 @@
+@mixin reference {
+    font-weight: 600;
+    display: block;
+    width: 312px;
+    height: 60px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 60px auto 0px;
+    line-height: 60px;
+    border: 2px solid;
+    font-size: 0.67rem;
+    &:hover {
+        background-color: rgba(255, 166, 13, 1);
+        border-color: rgba(255, 166, 13, 1);
+        transition: all 0.3s;
+        color: $header-color;
+    }
+}
+
+@mixin reference-color($bc) {
+    color: $bc;
+    border-color: $bc;
+}
+
+@mixin ellipse {
+    content: "";
+    width: 58px;
+    height: 58px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: -20px;
+    color: $header-color;
+    font-weight: 600;
+    font-size: 0.47rem;
+    line-height: 58px;
+    text-align: center;
+}
+
+@mixin ellipse-content ($econtent) {
+    content: $econtent;
+}
+
+@mixin ellipse-color ($ecolor) {
+    background-color: $ecolor;
+}
+
+@mixin button {
+    width: 70px;
+    height: 70px;
+    background: #FFAC1C;
+    text-align: center;
+    line-height: 70px;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    position: fixed;
+}
+
+@mixin line {
+    content: "";
+    display: inline-block;
+    background-color: white;
+    width: 16px;
+    height: 1px;
+    margin: 0 25px;
+    transform: rotate(90deg);
+    vertical-align: middle;
+    &:hover {
+        color: black;
+        transition: .5s;
+    }
+}
+
+@mixin social {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    line-height: 50px;
+    color: black;
+    display: inline-block;
+    &:not(:last-child) {
+        margin-right: 40px;
+    }
+    &:hover {
+        transform: scale(1.4);
+        transition-duration: .6s;
+    }
+}

@@ -1,0 +1,66 @@
+        .shef {
+            padding: 100px 0;
+            background-color: $secondary-color;
+            &__foto {
+                img {
+                    max-width: 398px;
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+            }
+            &__whois {
+                font-size: 0.83rem;
+                color: $secondary-text-color;
+                margin: 30px 0;
+            }
+            &__about {
+                max-width: 939px;
+                margin: 0 auto;
+            }
+        }
+        
+        @media screen and (max-width: 1024px) {
+            .shef {
+                padding: 80px 0;
+                &__foto {
+                    img {
+                        width: 282px;
+                    }
+                }
+                &__whois {
+                    font-size: 0.73rem;
+                }
+                &__about {
+                    max-width: 691px;
+                    font-size: 0.73rem;
+                }
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            .shef {
+                padding: 70px 0;
+                &__foto {
+                    img {
+                        width: 251px;
+                    }
+                }
+                &__whois {
+                    font-size: 0.67rem;
+                    margin: 20px 0;
+                }
+                &__about {
+                    max-width: 626px;
+                    font-size: 0.67rem;
+                }
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .shef {
+                &__about {
+                    max-width: 350px;
+                    font-size: 0.5rem;
+                }
+            }
+        }

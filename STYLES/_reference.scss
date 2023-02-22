@@ -1,0 +1,32 @@
+.reference {
+    @include reference;
+    &--white {
+        @include reference-color ($header-color);
+    }
+    &--black {
+        @include reference-color (black);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .reference {
+        width: 248px;
+        height: 48px;
+        line-height: 48px;
+        font-size: 0.57rem;
+        &--white {
+            margin-top: 63px;
+        }
+        &--black {
+            margin-top: 45px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reference {
+        &--white {
+            margin-top: 66px;
+        }
+    }
+}

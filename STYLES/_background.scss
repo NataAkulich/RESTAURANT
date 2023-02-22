@@ -1,0 +1,14 @@
+.background {
+    background-image: url("../img/agate.png");
+    color: $header-color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 700px) {
+    .background {
+        background-position: center;
+        background-size: cover;
+    }
+}

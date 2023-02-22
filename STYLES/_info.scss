@@ -1,0 +1,29 @@
+.info {
+    font-size: 1.17rem;
+    line-height: 50px;
+    &__item {
+        color: $header-color;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .info {
+        font-size: 0.83rem;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info {
+        font-size: 0.73rem;
+        line-height: 31px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .info {
+        font-size: 0.5rem;
+        line-height: 22px;
+    }
+}

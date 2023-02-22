@@ -1,0 +1,24 @@
+.banner {
+    background-color: rgba(0, 0, 0, 0.48);
+    padding: 218px 0 185px;
+    &__about {
+        font-size: 0.83rem;
+        font-weight: 400;
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        padding: 183px 0 153px;
+        &__about {
+            font-size: 0.6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        padding: 171px 0 99px;
+    }
+}

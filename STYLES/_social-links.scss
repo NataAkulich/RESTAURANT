@@ -1,0 +1,16 @@
+.social-links {
+    &__item {
+        @include social;
+    }
+    i {
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .social-links {
+        &__item:not(:last-child) {
+            margin-right: 35px;
+        }
+    }
+}

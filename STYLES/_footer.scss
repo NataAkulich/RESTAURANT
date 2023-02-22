@@ -1,0 +1,57 @@
+.footer {
+    padding: 100px 0;
+    background-color: $footer-color;
+    color: $header-color;
+    &__title {
+        font-weight: bold;
+        font-size: 2.17rem;
+        margin-bottom: 60px;
+    }
+    &__open {
+        margin: 60px 0;
+        color: #B1B1B1;
+        font-size: 0.83rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        padding: 80px 0 78px;
+        &__title {
+            font-size: 1.67rem;
+            margin-bottom: 50px;
+        }
+        &__open {
+            margin: 50px 0 47px;
+            font-size: 0.67rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 70px 0 65px;
+        &__title {
+            font-size: 1.33rem;
+            margin-bottom: 40px;
+        }
+        &__open {
+            margin: 40px 0 35px;
+            font-size: 0.6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer {
+        padding: 50px 0;
+        &__title {
+            font-size: 1rem;
+            margin-bottom: 30px;
+        }
+        &__open {
+            margin: 30px 0;
+            font-size: 0.4rem;
+        }
+    }
+}

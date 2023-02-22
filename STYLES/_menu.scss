@@ -1,0 +1,41 @@
+.menu {
+    padding: 88px 0px 100px;
+    &__autumn {
+        font-size: 0.83rem;
+        margin: 30px 0 60px;
+        color: $secondary-text-color;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .menu {
+        padding-top: 76px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .menu {
+        padding: 70px 0 80px;
+        &__autumn {
+            margin: 30px 0 48px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        padding: 58px 24px 70px 52px;
+        &__autumn {
+            margin: 20px 0 58px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .menu {
+        padding: 60px 12px 60px 40px;
+        &__autumn {
+            font-size: 0.65rem;
+        }
+    }
+}

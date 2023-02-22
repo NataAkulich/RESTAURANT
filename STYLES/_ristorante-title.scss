@@ -1,0 +1,30 @@
+.ristorante-title {
+    font-size: 2.83rem;
+    max-width: 914px;
+    margin: 0 auto;
+    line-height: 103px;
+}
+
+@media screen and (max-width: 1024px) {
+    .ristorante-title {
+        font-size: 2rem;
+        max-width: 697px;
+        line-height: 73px;
+        letter-spacing: 0.07em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ristorante-title {
+        font-size: 1.67rem;
+        max-width: 329px;
+        line-height: 57.65px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .ristorante-title {
+        font-size: 1.3rem;
+        max-width: 250px;
+    }
+}

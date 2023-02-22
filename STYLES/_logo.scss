@@ -1,0 +1,16 @@
+.logo {
+    font-weight: 400;
+    font-size: 1.67rem;
+    text-decoration: none;
+    color: $header-color;
+    &:hover {
+        transition: .5s;
+        color: #ffac1c;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        font-size: 1.17rem;
+    }
+}
